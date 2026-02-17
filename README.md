@@ -11,7 +11,7 @@ El sistema busca digitalizar la gestión de negocios mediante la creación autom
 ---
 
 ## Objetivo general
-Desarrollar una plataforma web multi-tenant que permita a negocios de belleza gestionar sus servicios, empleados y citas dentro de un entorno centralizado, utilizando el stack MERN como base tecnológica.
+Desarrollar una plataforma web con multiples herramientas que permita a negocios de belleza gestionar sus servicios, empleados y citas dentro de un entorno centralizado, utilizando el stack MERN como base tecnológica.
 
 ---
 
@@ -25,3 +25,29 @@ Desarrollar una plataforma web multi-tenant que permita a negocios de belleza ge
 ---
 
 ## Estructura del proyecto
+mern-project-base/
+│
+├── backend/ # API y lógica del servidor
+│ └── src/
+│
+├── frontend/ # Aplicación web del cliente
+│ └── src/
+│
+├── .env.example # Plantilla de variables de entorno
+└── README.md
+
+---
+
+## ⚙️ Configuración local (inicio)
+Clonar el repositorio:
+
+```bash
+git clone https://github.com/IsaMtz269/mern-project-base.git
+cd mern-project-base
+
+## 🌱 Roadmap inicial
+- Configuración base del proyecto MERN
+- Sistema de autenticación y roles
+- Gestión de citas
+- Dashboard administrativo
+- Módulo de estadisticas
