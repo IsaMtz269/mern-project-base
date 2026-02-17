@@ -25,16 +25,13 @@ Desarrollar una plataforma web con multiples herramientas que permita a negocios
 ---
 
 ## Estructura del proyecto
-mern-project-base/
-│
-├── backend/ # API y lógica del servidor
-│ └── src/
-│
-├── frontend/ # Aplicación web del cliente
-│ └── src/
-│
-├── .env.example # Plantilla de variables de entorno
-└── README.md
+-mern-project-base/
+-backend/ # API y lógica del servidor
+src/
+-frontend/ # Aplicación web del cliente
+src/
+-.env.example # Plantilla de variables de entorno
+README.md
 
 ---
 
